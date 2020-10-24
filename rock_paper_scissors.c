@@ -10,7 +10,7 @@
 main(void)
 {
     srand(time(NULL));
-    printf("\n\n\Hi there!! I'm AJ!\nWould you like to play Rock, Paper, Scissors? (y\\n)\t");
+    printf("\n\nHi there!! I'm AJ!\nWould you like to play Rock, Paper, Scissors? (y\\n)\t");
     char c,turn;
     scanf("%c",&c);
     if (c=='n') exit(0);
